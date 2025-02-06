@@ -1,0 +1,11 @@
+sort1 uses: Bubble sort
+
+How do you know?: The system time was relatively high (0.024s), indicating frequent adjacent swaps, which is characteristic of bubble sort. It is typically slower for unsorted or reversed lists due to the frequent swapping of adjacent elements.
+
+sort2 uses: Merge sort
+
+How do you know?: Low times (3x) indicates that the algorithm is likely recursive and divides the list into smaller parts for merging.
+
+sort3 uses: Selection sort
+
+How do you know?: The user time was high (0.112s) compared to the system time (0.015s), suggesting that the algorithm spends a lot of time comparing elements.
